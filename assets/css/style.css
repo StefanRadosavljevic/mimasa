@@ -2422,3 +2422,11 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+.price-info {
+  color: #555;
+  /* Adjust the color as per your design */
+  font-size: 14px;
+  /* Adjust the font size smaller than other paragraphs */
+  /* Other styling properties */
+}
