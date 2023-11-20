@@ -23,6 +23,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -87,12 +88,14 @@
     <section id="video" class="about">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
+          <h2>prezentacija</h2>
           <p>Pogledajte video prezentaciju</p>
         </header>
-        <div class="video-container">
-          <!-- Video element to display the local video -->
-          <video width="560" height="315" controls>
+        <!-- Plyr Video Player -->
+        <div id="player">
+          <video playsinline controls>
             <source src="/home/stefan/Downloads/venomag/assets/img/venomag.mp4" type="video/mp4">
+            <!-- Add other supported video formats here -->
             Your browser does not support the video tag.
           </video>
           <!-- Replace "path/to/your/video.mp4" with the actual path to your video file -->
@@ -148,7 +151,7 @@
         <div class="row">
     
           <div class="col-lg-6">
-            <img src="assets/img/older-couple.jpg" class="img-fluid" alt="">
+            <img src="assets/img/benefiti.jpg" class="img-fluid" alt="">
           </div>
     
           <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
@@ -291,7 +294,7 @@
               </div>
         
               <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                <img src="assets/img/about.jpg" class="img-fluid" alt="">
+                <img src="assets/img/primena.jpg" class="img-fluid" alt="">
               </div>
         
             </div>
@@ -927,6 +930,7 @@ Venomag je moj saveznik protiv proširenih vena! Osećam se lako i bez bola, a p
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -934,6 +938,11 @@ Venomag je moj saveznik protiv proširenih vena! Osećam se lako i bez bola, a p
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+  <script>
+    // Initialize Plyr video player
+    const player = new Plyr('#player video');
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
