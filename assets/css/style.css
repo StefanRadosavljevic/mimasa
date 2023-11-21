@@ -2446,3 +2446,16 @@ section {
   width: 100%;
   height: 100%;
 }
+
+.price {
+  line-height: 1;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.mimasa-logo-sm {
+  margin-top: 30px;
+  max-width: 25%;
+  max-height: 25%;
+  /* Adjust the maximum width of the logo as needed */
+}

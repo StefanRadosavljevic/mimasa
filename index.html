@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/mimasa_logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -36,22 +36,23 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
-        <span>Venomag</span>
+        <img src="assets/img/mimasa_logo.png" alt="Mimasa Logo" width="60" height="90">
+
+        <!-- <span>Venomag</span> -->
       </a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Naslovna</a></li>
-          <li><a class="nav-link scrollto" href="#about">Prezentacija</a></li>
-          <li><a class="nav-link scrollto" href="#services">O venomagu</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Benefiti</a></li>
-          <li><a class="nav-link scrollto" href="#team">Primena</a></li>
-          <li><a class="nav-link scrollto" href="#team">Pomoć</a></li>
+          <li><a class="nav-link scrollto" href="#video">Prezentacija</a></li>
+          <li><a class="nav-link scrollto" href="#about">O venomagu</a></li>
+          <li><a class="nav-link scrollto" href="#features">Benefiti</a></li>
+          <li><a class="nav-link scrollto" href="#primena">Primena</a></li>
+          <li><a class="nav-link scrollto" href="#faq">Pomoć</a></li>
 
 
           <li><a class="nav-link scrollto" href="#contact">Kontakt</a></li>
-          <li><a class="getstarted scrollto" href="#about">Poručite</a></li>
+          <li><a class="getstarted scrollto" href="tel:0222341162">Poručite</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -66,17 +67,21 @@
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">Oslobodite se bola i nelagodnosti sa Venomagom!</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">Proširene vene mogu predstavljati ozbiljan problem za vaše zdravlje kao udobnost i estetiku. Uz pomoć Venomaga, možete se
+          <h2 data-aos="fade-up" data-aos-delay="400">Proširene vene mogu predstavljati ozbiljan <strong>problem</strong> za vaše zdravlje kao udobnost i estetiku. Uz pomoć Venomaga, možete se
           suočiti s tim izazovom i vratiti svojim nogama osećaj lakoće i vitalnosti.</h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
-              <a href="tel:+381603349162" href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+              
+              <a href="tel:0222341162" href="#about"
+                class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
                 <span>Poručite</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
-              <p class="price-info">1500 RSD mesečno</p>
+              <p class="price"><strong>1291 RSD</strong> mesečno na <strong>12 rata</strong></p>
+              <p class="working-hours">Radno vreme: <strong>8-16h</strong></p>
             </div>
           </div>
+
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
           <img src="assets/img/venomag.jpg" class="img-fluid" alt="">
@@ -84,23 +89,30 @@
       </div>
     </div>
 
-  </section><!-- End Hero -->
+  </section>
+  <!-- End Hero -->
 
     <section id="video" class="about">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
-          <h2>prezentacija</h2>
-          <p>Pogledajte video prezentaciju</p>
+          <h2>Video prezentacija</h2>
         </header>
         <!-- Plyr Video Player -->
         <div id="player">
           <video playsinline controls>
-            <source src="assets/img/venomag.mp4" type="video/mp4">
+            <source src="assets/img/venomag_prezentacija.mp4" type="video/mp4">
             <!-- Add other supported video formats here -->
             Your browser does not support the video tag.
           </video>
-          </div>
+        </div>
+        <!-- Logo Mimasa ispod videa -->
+        <div class="text-center text-lg-start">
+          <img src="assets/img/mimasa_logo.png" alt="Logo Mimasa" class="img-fluid mimasa-logo-sm">
+          <p>Kompanija <strong>Mimasa</strong> igra ključnu ulogu u širenju i dostupnosti proizvoda Venomag širokoj publici.
+            Naša distributivna mreža omogućava da proizvod bude lako dostupan potrošačima.</p>
+        </div>
       </div>
+
     </section>
 
   <main id="main">
@@ -120,7 +132,7 @@
                 oticanja, bola i napetosti u nogama.
               </p>
               <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                <a href="#features" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                   <span>Benefiti</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
@@ -266,7 +278,7 @@
     <!-- End Primena Section -->
 
         <!-- ======= Primena Section ======= -->
-        <section id="about" class="about">
+        <section id="primena" class="about">
         
           <div class="container" data-aos="fade-up">
             <div class="row gx-0">
@@ -314,7 +326,7 @@
             <div class="count-box">
               <i class="bi bi-emoji-smile"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="1523" data-purecounter-duration="1" class="purecounter"></span>
                 <p>zadovoljnih korisnika</p>
               </div>
             </div>
@@ -324,7 +336,7 @@
             <div class="count-box">
               <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
                 <p>godina postojanja</p>
               </div>
             </div>
@@ -334,7 +346,7 @@
             <div class="count-box">
               <i class="bi bi-headset" style="color: #15be56;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="186" data-purecounter-duration="1" class="purecounter"></span>
                 <p>sati podrške</p>
               </div>
             </div>
@@ -344,7 +356,7 @@
             <div class="count-box">
               <i class="bi bi-people" style="color: #bb0852;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="13" data-purecounter-duration="1" class="purecounter"></span>
                 <p>strastvenih prodavaca</p>
               </div>
             </div>
@@ -381,7 +393,7 @@
                 </h2>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
                   <div class="accordion-body">
-                    Venomag je medicinski proizvod sa 54 Aqua magneta. Njegova specijalna medicinska guma otporna je na bakterije i
+                    Venomag je medicinski proizvod sa 54 Akma magneta. Njegova specijalna medicinska guma otporna je na bakterije i
                     dizajnirana je za eliminaciju sitnih kapilara i vena. Magneti imaju strogo definisanu dubinu i dijametar delovanja,
                     omogućavajući stimulaciju tkiva gde se pojavljuju problemi sa venama.
                   </div>
@@ -648,8 +660,11 @@
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>Venomag je promenio moj svakodnevni život! Bol u nogama je nestao, a koža je postala zdravija i elastičnija</p>
-                <h3>Ana Pavić, 63 godina</h3>
+                <p>Venomag je stvarno promenio moj svakodnevni život! Kao kasirka, moje noge su često bile umorne i bolne nakon dugog dana
+                rada. Međutim, otkako koristim Venomag, primetila sam neverovatnu razliku! Sada mogu duže da stojim bez nelagode i
+                bolova u nogama. Osećam se fantastično, a koža na mojim nogama je postala zdravija i elastičnija. Zaista mi je doneo
+                olakšanje na koje nisam ni mogla da se nadam!</p>
+                <h3>Ana Pavić, 52 godine</h3>
                 <h4>Novi Sad</h4>
               </div>
             </div>
@@ -660,7 +675,11 @@
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>Nakon što sam koristila Venomag, mogu slobodno da uživam u aktivnostima. Olakšanje u nogama je nešto neverovatno!</p>
+                <p>Kao baka koja često čuva svoje unučiće, provodim puno vremena aktivno
+                se igrajući s njima. Međutim, ti dugi sati aktivnosti su ostavljali trag na mojim nogama. Od kada sam počela koristiti
+                Venomag, osećam se fantastično! Bolovi u nogama su se smanjili i mogu s lakoćom pratiti svoje živahne unučiće. Sada mogu
+                da uživam u vremenu provedenom s njima bez osećaja umora i nelagode. Venomag je zaista doneo olakšanje u mom
+                svakodnevnom životu kao bake.</p>
                 <h3>Mirjana Radulović, 60 godina</h3>
                 <h4>Beograd</h4>                  
               </div>
@@ -673,7 +692,10 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-Venomag je moj saveznik protiv proširenih vena! Osećam se lako i bez bola, a primena je jednostavna i efikasna.                </p>
+Venomag je postao moj novi ritual opuštanja! Kao čovek koji je uživao u banji ovaj proizvod je doneo potpunu transformaciju mom svakodnevnom ritualu! Sada, umesto da se oslanjam
+na banju za opuštanje, koristim Venomag i osećam se neverovatno! Bolovi u nogama su nestali, a osećaj olakšanja i
+udobnosti koji mi pruža Venomag je nezamenjiv. Zaista je postao moj novi izvor opuštanja i udobnosti koji nijedna banja
+do sada nije mogla da pruži.</p>
                 <h3>Dragan Milić, 71 godina</h3>
                 <h4>Kragujevac</h4>
                   
@@ -685,25 +707,17 @@ Venomag je moj saveznik protiv proširenih vena! Osećam se lako i bez bola, a p
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
-                <p>
-                  Nakon meseci korišćenja Venomaga, oduševljena sam rezultatima. Proširene vene su se smanjile, a bol je nestao.
+                <p>Kao osoba koja dosta radi oko domaćinstva, često sam osećala umor i
+                  bolove u nogama. Od kada sam počela koristiti Venomag, lakše mogu da obavljam sve
+                  poslove oko domaćinstva bez osećaja umora i nelagode u nogama. Ovaj proizvod mi je doneo olakšanje koje mi je omogućilo da budem
+                  efikasnija i da uživam u svakodnevnim aktivnostima oko domaćinstva bez problema. Venomag je zaista postao moj saveznik u
+                  olakšavanju svakodnevnog rada u kući.
                 </p>
                 <h3>Svetlana Borović, 58 godina</h3>
                 <h4>Beograd</h4>
               </div>
             </div>
             <!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>Venomag je zaista promenio način na koji se osećam. Osećam se revitalizovano i noge su mi zahvalne. Toplo preporučujem!</p>
-                <h3>Dobrila Milić, 54 godina</h3>
-                <h4>Novi Sad</h4>
-              </div>
-            </div><!-- End testimonial item -->
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -845,7 +859,7 @@ Venomag je moj saveznik protiv proširenih vena! Osećam se lako i bez bola, a p
             <div class="content">
               <h3>saradnja sa renomiranim institucijama</h3>
               <h2>Klinički potvrđena efikasnost uz podršku renomiranih institucija</h2>
-              <p>Magnetni delovi proizvoda Venomag su prošli klinička ispitivanja na Vojnomedicinskoj akademiji (VMA), a sami magneti su azvijeni u saradnji sa Institutima Mihajlo Pupin i IMP-PIEYOTEHNOLOGIJA.
+              <p>Magnetni delovi proizvoda Venomag su prošli klinička ispitivanja na Vojnomedicinskoj akademiji (VMA), a sami magneti su razvijeni od strane Institutima Mihajlo Pupin i IMP-PIEZOTEHNOLOGIJA.
               </p>
             </div>
           </div>
@@ -877,21 +891,21 @@ Venomag je moj saveznik protiv proširenih vena! Osećam se lako i bez bola, a p
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Adresa</h3>
-                  <p>Svetosavska 122,<br>Novi Banovci, 22304</p>
+                  <p>Novi Banovci, 22304</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
                   <h3>Pozovite nas</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                  <p>022 2341 162</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
+                  <p>office@mimasa.rs</p>
                 </div>
               </div>
 
@@ -923,20 +937,6 @@ Venomag je moj saveznik protiv proširenih vena! Osećam se lako i bez bola, a p
               <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
               <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
             </div>
-          </div>
-
-          
-
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Kontaktirajte nas</h4>
-            <p>
-              Svetosavska 15 <br>
-              Novi Banovci, 22304<br>
-              Srbija <br><br>
-              <strong>Telefon:</strong> +381 6089 55488 55<br>
-              <strong>Email:</strong> office@venomag.com<br>
-            </p>
-
           </div>
 
         </div>
