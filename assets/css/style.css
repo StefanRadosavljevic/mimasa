@@ -2459,3 +2459,24 @@ section {
   max-height: 25%;
   /* Adjust the maximum width of the logo as needed */
 }
+
+/* Custom styles */
+@media (min-width: 992px) {
+
+  /* Larger screens (desktop) */
+  .mimasa-logo {
+    max-width: 200px;
+    /* Adjust the width of the logo as needed */
+  }
+
+  /* Centering the entire div */
+  .d-flex {
+    justify-content: center !important;
+  }
+}
+
+/* Custom CSS to center the container */
+.custom-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
